@@ -1,10 +1,13 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 html{
     background-image: url("../images/papyrus.png")
 }
 body {
     width: 1450px;
-    
-    
 }
 .wrapper { 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,6 +27,7 @@ li{
 a   {
     color: #cccccc;
     text-decoration: none;
+    margin-bottom: 25px;
 }
 .navbar {
     color: gray;
@@ -84,5 +88,23 @@ footer{
     background-color:#4aaaa5;
     color: white;
     float: left;
-
+    bottom: 25px;
+      }
+.portfolio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    color:whitesmoke;
+}
+#hangman {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    color:whitesmoke;
 }
