@@ -23,16 +23,18 @@ li{
     text-align: inline;
     list-style-type: none;
     margin-left: 10px;
+    color: white;
 }
 a   {
     color: #cccccc;
     text-decoration: none;
     margin-bottom: 25px;
 }
-.navbar {
+.nav {
     color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     place-content: inline;
+    display: block;
 }
 
 /* * { */
